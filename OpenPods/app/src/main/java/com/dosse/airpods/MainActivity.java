@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Check if Bluetooth LE is available on this device. If not, show an error
         BluetoothAdapter btAdapter = ((BluetoothManager)Objects.requireNonNull(getSystemService(Context.BLUETOOTH_SERVICE))).getAdapter();
-        if (btAdapter == null || (btAdapter.isEnabled() && btAdapter.getBluetoothLeScanner() == null) || (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE))) {
+        /*if (btAdapter == null || (btAdapter.isEnabled() && btAdapter.getBluetoothLeScanner() == null) || (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE))) {
             startActivity(new Intent(MainActivity.this, NoBTActivity.class));
             finish();
             return;
-        }
+        }*/
 
         // Check if all permissions have been granted
         boolean ok = true;

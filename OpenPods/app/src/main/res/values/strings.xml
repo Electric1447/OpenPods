@@ -19,11 +19,24 @@
     <string name="hide">Hide app</string>
     <string name="hide_desc">Hide this app from the launcher</string>
     <string name="hideClicked">The icon will disappear soon</string>
-    <string name="about">About</string>
+    <!-- TODO: Update translations of new strings -->
+    <string name="textonly" translatable="false">Text only notification (EXPERIMENTAL)</string>
+    <string name="textonly_desc" translatable="false">Change to a smaller Text Only notification in order to save space</string>
+    <string name="textonly_updating" translatable="false">Updating...</string>
+    <string name="textonly_popupwindow_title" translatable="false">To enable text only mode you need to change your notification settings</string>
+    <string name="textonly_popupwindow_desc1" translatable="false">In some phones you need to go to\n[Importance -> Low]</string>
+    <string name="textonly_popupwindow_desc2" translatable="false">In other phones you need to enable [Minimize]</string>
+    <string name="restart_service" translatable="false">Restart Service</string>
 
+    <string name="about">About</string>
     <string name="about_dev">Developed by Federico Dossena</string>
     <string name="website">Website</string>
     <string name="github">Github</string>
     <string name="donate">Donate</string>
     <string name="fdroid" translatable="false">F-Droid</string>
+
+    <!-- TODO: Update translations of new strings -->
+    <string name="okay" translatable="false">Okay</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="whitespace" translatable="false">&#160;</string>
 </resources>

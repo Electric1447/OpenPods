@@ -19,6 +19,17 @@
             android:title="@string/hide"
             app:iconSpaceReserved="false" />
 
+        <Preference
+            android:key="textonly"
+            android:summary="@string/textonly_desc"
+            android:title="@string/textonly"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="restart"
+            android:title="Restart Service"
+            app:iconSpaceReserved="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
